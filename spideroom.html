@@ -1,0 +1,327 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+    <head>
+        <title>demo spideroom </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./vi-du2.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <!-- <script type="text/JavaScript"> 
+            window.oncontextmenu =function(event){ event.preventDefault(); event.stopPropagation(); return false; }; 
+            var msg="dembuon.vn"; 
+            function disableIE() {if (document.all) {alert(msg);return false;} } 
+            function disableNS(e) { if (document.layers||(document.getElementById&amp;&amp;!document.all)) { 
+            if (e.which==2||e.which==3) {alert(msg);return false;} } } 
+            if (document.layers) { 
+            document.captureEvents(Event.MOUSEDOWN);document.onmousedown=disableNS; } 
+            else { document.onmouseup=disableNS;document.oncontextmenu=disableIE; } 
+            document.oncontextmenu=new Function("alert(msg);return false") 
+            </script>
+            <script type=”text/JavaScript”>
+                function killCopy(e){
+                return false
+                }
+                function reEnable(){
+                return true
+                }
+                document.onselectstart = new Function ("return false")
+                if (window.sidebar){
+                document.onmousedown=killCopy
+                document.onclick=reEnable
+                }
+                </script> -->
+    
+    <!--i code it because i wanna protect my project ,but if you wanna copy this ! ok fine-->
+     </head>
+    <body>
+    <div id="wrapper">
+       
+           <div class="header_title1">
+               <div class="left">
+               <img id ="big-icon" src="https://spiderum.com/assets/images/logo4.png" alt="logo">
+               <img id ="small-icon" src="https://1.bp.blogspot.com/-qOaEuZyR8CU/X3k2FvxmRvI/AAAAAAAAIss/kUVgyjWTllMRt6cuiSGCsRTqu15JpWsgACNcBGAsYHQ/s278/spideroom%2Bicon%2B2.png" alt="" >
+              <img class="search-icon" onclick ="search()" src="https://www.flaticon.com/svg/static/icons/svg/482/482631.svg"></img>
+               <input type="text"  id = "search" placeholder="tìm kiếm theo tiêu đề,tác giả hoặc tag">
+               
+               </div>
+               <div class="right">
+                <div class="write"><a href ="#">viết bài</a></div>
+                <div class="sign-up">
+                    <div class="login_left"><a href="#">Login</a></div>
+                    <div class="sign_up-right"><a href="#">sign up </a></div>
+                    
+                </div>
+
+               </div>
+           </div>
+       
+           <div class="header_title2">
+               <ul id = "header-ul">
+                   <li><a href="#">Cho bạn </a></li>
+                   <li><a href="#">Tất cả </a></li>
+                   <li><a href="#">Thành viên nổi bật </a></li>
+                   <li><a href="#">Quan điểm -Tranh luận </a></li>
+                   <li><a href="#">Science24 </a></li>
+                   <li><a href="#">Sách </a></li>
+                   <li><a href="#">Quan điểm khác </a></li>
+                   <li><a href="#">Việc làm </a></li>
+               </ul>
+           </div>
+   
+       <div class="content"> 
+           <div class="main-img">
+   <img src="https://spiderum.com/assets/images/banner/cover-spiderum-not-login.jpg" alt="anh chinh ">
+   <div class="main_img-text"> <h3>Nổi bật </h3> <p>xem thêm ></p></div>
+   </div>
+<div class="cover-book">
+    <div class="div_firt-left">
+        <h3 onclick = "clickWomen()">Phụ nữ thật tuyệt vời!</h3>
+        <p  onclick = "clickWomen()" >Dưới con mắt của một người đàn ông, tôi thấy họ thực sự đáng ngưỡng mộ, bởi họ làm được những điều mà tôi dù cố mấy cũng không thể nào làm tốt bằng. Họ có thể buôn đủ thứ chuyện trên trời dưới bể,...</p>
+    
+        <div class="user_first">
+            <img src="https://images.unsplash.com/photo-1601818998069-9131580cbd75?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="user"><b>Dinh Si Duyet</b>
+        </div>
+    </div>
+  <div class="wrap_book-right">
+    <div class="div_second-right">
+        <img onclick="aboutSex()" src="https://s3-ap-southeast-1.amazonaws.com/images.spiderum.com/sp-thumbnails/c628d190034611eb9b1fa586675dba3e.jpg" alt="second image ">
+   <h3 onclick ="aboutSex()">Sex thì tốt đấy, nhưng thiếu hiểu <br>biết về Sex và mắc các loại<br> bệnh STD thì không!</h3>
+   <div class="user_second">
+    <img src="https://images.unsplash.com/photo-1601762923275-51ce14a3d490?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=391&q=80" alt="user2"><b>Thúy Kiều </b>
+
+</div>
+</div>
+    <div class="div_second-right">
+       <img onclick="powerofalone()" src="https://s3-ap-southeast-1.amazonaws.com/images.spiderum.com/sp-thumbnails/79a27b20044811eb9499fd363a20934a.jpg" alt="">
+    <h3 onclick ="powerofalone()">Sức mạnh của sự cô độc, khi độc hành là sự lựa chọn</h3>
+    <div class="user_second">
+        <img src="https://images.unsplash.com/photo-1601752139137-040d4735fd00?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="user three"><b>Dinh Si Duyet </b>
+    </div>
+    </div>
+    <div class="div_second-right">
+       <img onclick="youngage()" src="https://s3-ap-southeast-1.amazonaws.com/images.spiderum.com/sp-thumbnails/da36e5a004b311ebbfff5b1f6c38251a.jpg" alt="chenh venh tuoi 20">
+   <h3 onclick="youngage()">Chênh vênh tuổi 20. Tôi đã sống như thế nào?</h3>
+   <div class="user_second">
+       <img src="https://images.unsplash.com/photo-1601742245406-48f2f8e83d8c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80" alt=""><b>Dinh Si Duyet </b>
+   </div>
+    </div>
+    <div class="div_second-right">
+        <img onclick ="carinvn()" src="https://s3-ap-southeast-1.amazonaws.com/images.spiderum.com/sp-thumbnails/213dab5002e811ebbcee2521c8621727.jpg" alt="five image">
+    <h3 onclick ="carinvn()" >Mua Xe Sang Ở Việt Nam Mắc Gấp 3 Lần Ở Châu Âu, Người Mua Xe Nghĩ Gì?</h3>
+    <div class="user_second">
+        <img src="https://images.unsplash.com/photo-1601752234737-479b9e2d7e95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt=""><b>Dinh Si Duyet</b>
+    </div>
+    
+    </div></div>
+  
+    <div class="text_of-book"><h3>Sách </h3> <p>xem thêm > </p>
+    </div>
+</div>
+
+<div class="power_of-book">
+<div class="div_power-first">
+    <img class ="first_main-img" src="https://s3-ap-southeast-1.amazonaws.com/images.spiderum.com/sp-thumbnails/defaultthumbnail.png" alt="">
+    <h3>Cách "Lolita" đã giải phóng tôi khỏi Humbert của chính mình</h3>
+    <p>Được viết bởi Bindu Bansinath Chính chú tôi là người đầu tiên tặng tôi cuốn "Lolita". Ba không chịu mua nó cho tôi ở hiệu sách quen mà hai cha con hay đến. "Tại sao lại là cuốn sách đó?" Ba hỏi khi..</p>
+    <div class="small_user-power1">
+        <img src="https://images.unsplash.com/photo-1601906406089-24e31e0ea77a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt=""><b>Đinh thị nga  </b>
+    </div>
+</div>
+<div class="wrap_power-right">
+<div class="div_power">
+    <img src="https://s3-ap-southeast-1.amazonaws.com/images.spiderum.com/sp-thumbnails/8cb395b0067211eb9db6639c1526002b.jpg" alt="">
+    <h3>Người tốt xin đừng cố</h3>
+  
+    <div class="small_user-power">
+        <img src="https://images.unsplash.com/photo-1601906406089-24e31e0ea77a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt=""><b>Nắng Hạ </b>
+    </div>
+</div>
+<div class="div_power">
+    <img  src="https://s3-ap-southeast-1.amazonaws.com/images.spiderum.com/sp-thumbnails/891c76f0064b11eba8baeb998579ecb3.png" alt="">
+    <h3>SAMURICE - LÀM VÌ THÍCH, THÍCH THÌ LÀM!</h3>
+   
+    <div class="small_user-power">
+        <img src="https://images.unsplash.com/photo-1601906406089-24e31e0ea77a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt=""><b>Hoài Thương </b>
+    </div>
+</div>
+<div class="div_power">
+    <img  src="https://s3-ap-southeast-1.amazonaws.com/images.spiderum.com/sp-thumbnails/b0e5bc60066d11eb981f3f2525632514.jpg" alt="">
+    <h3>Sự tuyệt  vọng </h3>
+   
+    <div class="small_user-power">
+        <img src="https://images.unsplash.com/photo-1601906406089-24e31e0ea77a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt=""><b>Đa Linh </b>
+    </div>
+</div>
+<div class="div_power">
+    <img  src="https://s3-ap-southeast-1.amazonaws.com/images.spiderum.com/sp-thumbnails/7a67cb60061311eb9f85352ef0ef53d2.jpg" alt="">
+    <h3>Người hành hương </h3>
+   
+    <div class="small_user-power">
+        <img src="https://images.unsplash.com/photo-1601906406089-24e31e0ea77a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt=""><b>Dinh Si Duyet </b>
+    </div>
+</div>
+</div>
+<div class="text_of-power"><h3>Du lịch - Ẩm thực </h3> <p>xem thêm ></p></div>
+</div>
+    <div class="travel">
+        <div class="div-travel1">
+            <img class="first_travel-img" src="https://images.unsplash.com/photo-1601910998170-1784257b42e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=351&q=80" alt="">
+           <div class="text_main-travel">
+            <h3>Ám ảnh khi lần đầu ghé thăm cánh đồng chết Choeung Ek</h3>
+           
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aut in ducimus mollitia velit distinctio quibusdam accusamus, voluptates perspiciatis quas!</p>
+       
+            <div class="small-user1">
+                <img class="circle1" src="https://images.unsplash.com/photo-1601909991211-7cca03a0b847?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt=""> <b></b>
+            </div>
+            </div>
+        </div>
+       <div class="wrap-travel">
+           <div class="travel-item">
+            <img src="https://images.unsplash.com/photo-1601935195037-e2c74ad44aa7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+            <h3>Kỉ niệm lần đầu tiên đặt chân đến xã Hóa Sơn </h3>
+            <div class="small_user2">
+                <img class="circle2" src="https://images.unsplash.com/photo-1601909991211-7cca03a0b847?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt=""><b> Ronaldo</b>
+            </div>
+           </div>
+           <div class="travel-item">
+               <img src="https://images.unsplash.com/photo-1601940352873-65090ed91167?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+               <h3>Lộ trình "trek nhẹ" tự túc cung Tà Năng Phan Dũng của 2 chị em chỉ với 500k</h3>
+               <div class="small_user2">
+                   <img class="circle2" src="https://images.unsplash.com/photo-1601909991211-7cca03a0b847?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt=""> <b>Lion Messi</b>
+               </div>
+           </div>
+           <div class="travel-item">
+            <img src="https://images.unsplash.com/photo-1601958473303-7218bbba8b5c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+            <h3>1 mình lang thang "gần hết" Hà Giang</h3>
+            <div class="small_user2">
+                <img class="circle2"src="https://images.unsplash.com/photo-1601909991211-7cca03a0b847?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt=""> <b>Lion Messi</b>
+            </div>
+           </div>
+           <div class="travel-item">
+            <img src="https://images.unsplash.com/photo-1601758260892-a62c486ace97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+            <h3>Nhớ bến Đà giang</h3>
+            <div class="small_user2">
+                <img class="circle2" src="https://images.unsplash.com/photo-1601909991211-7cca03a0b847?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt=""> <b>Lion Messi</b>
+            </div>
+           </div>
+         
+       </div>
+       <div class="text_of-travel"><h3>Khoa học - Công nghệ </h3> <p>xem thêm > </p></div>
+    </div>
+
+    <div class="Science">
+        <div class="science-item">
+            <img class="small1" src="https://images.unsplash.com/photo-1602067789565-df85b4aeba38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+        <h4 class="science_h4-1">
+            Lorem ipsum dolor<br> sit, amet consectetur<br> adipisicing elit.
+        </h4>
+        
+        <div class="science-user">
+            <img src="https://images.unsplash.com/photo-1602039890015-53db301e665c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""><b>Anna Trương  </b>
+        </div>
+        </div>
+        <div class="science-item">
+            <img class="small2 "src="https://images.unsplash.com/photo-1601971180401-c2cdfff8fa2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+            <h4 class="science_h4-2">
+                Lorem ipsum dolor<br> sit, amet consectetur<br> adipisicing elit.
+            </h4>
+            
+            <div class="science-user2">
+                <img src="https://images.unsplash.com/photo-1602064260035-a43255d7b08e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""><b>Huyền Trang </b>
+            </div>
+        </div>
+        <div class="science-item">
+            <img class="small3" src="https://images.unsplash.com/photo-1602079042308-cb14424c6715?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+            <h4 class="science_h4-3">
+                Lorem ipsum dolor<br> sit, amet consectetur<br> adipisicing elit.
+            </h4>
+            
+            <div class="science-user3">
+                <img src="https://images.unsplash.com/photo-1602019304603-b3988181d7c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""><b>Ngọc </b>
+            </div>
+        </div>
+        <div class="science-item">
+            <img class="small4" src="https://images.unsplash.com/photo-1602021188550-a9e6aa00a1b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+            <h4 class="science_h4-4">
+                Lorem ipsum dolor<br> sit, amet consectetur<br> adipisicing elit.
+            </h4>
+            
+            <div class="science-user4">
+                <img src="https://images.unsplash.com/photo-1601758176481-e81a6b713126?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""><b>dinh quoc </b>
+            </div>
+        </div>
+        <div class="science-item">
+            <img class="small5" src="https://images.unsplash.com/photo-1602024902590-5ad79a22219f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+            <h4 class="science_h4-5">
+                Lorem ipsum dolor<br> sit, amet consectetur<br> adipisicing elit.
+            </h4>
+            
+            <div class="science-user5">
+                <img src="https://images.unsplash.com/photo-1601938338694-6bc701f8f5f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""><b>Denis </b>
+            </div>
+       
+    </div>
+    </div>
+    <nav>
+    <div class="cover-image1">
+        <img
+          src="https://images.unsplash.com/photo-1602067789565-df85b4aeba38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+        <div class="close1">&times</div>
+      </div>
+      <div class="cover-image2">
+        <img
+          src="https://images.unsplash.com/photo-1601971180401-c2cdfff8fa2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+        <div class="close2">&times</div>
+      </div>
+      <div class="cover-image3">
+        <img
+          src="https://images.unsplash.com/photo-1602079042308-cb14424c6715?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+        <div class="close3">&times</div>
+      </div>
+      <div class="cover-image4">
+        <img
+          src="https://images.unsplash.com/photo-1602021188550-a9e6aa00a1b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+        <div class="close4">&times</div>
+      </div>
+      <div class="cover-image5">
+        <img
+          src="https://images.unsplash.com/photo-1602024902590-5ad79a22219f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+        <div class="close5">&times</div>
+      </div>
+</nav>
+
+   
+      </div>
+      <div class="footer">
+         <ul id ="footer-ul">
+             <li><a href="#">Wiki </a></li>
+             <li><a href="#">Điều khoản sử dụng </a></li>
+             <li><a href="#">Thư ngỏ </a></li>
+             <li><a href="#">Fanpage </a></li>
+         </ul>
+         <section>
+             <p>Người chịu trách nghiệm nội dung :Đinh Sĩ Duyệt  © 2020 Công ty TNHH DSD</p>
+             <p>Điện thoại : 0839650936 </p>
+             <p>Email : dinhsyduyet@gmail.com </p>
+             <p>Địa chỉ : thôn Thuận Hóa xã Hóa Sơn huyện Minh Hóa tỉnh Quảng Bình </p>
+             <p>Giấy phép MXH số 341/GP-TTTT do Bộ TTTT cấp ngày 27 tháng 6 năm 2016</p>
+         </section>
+      </div>
+       </div>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script src="./spideroom.js"></script>
+    </body>
+</html>
