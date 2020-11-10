@@ -607,6 +607,7 @@ position: relative;left:0px;font-size: 26px;top:0px;
     font-size: 40px;
     cursor: pointer;
     float: right;
+    color:green;
     position: relative;right:30px;
     user-select: none;
   }
